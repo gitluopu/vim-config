@@ -38,3 +38,5 @@ set tags=/usr/include/tags
 set tags+=/home/luopu/work/oled-spi
 
 set nowrap
+good stomache
+congratulation
