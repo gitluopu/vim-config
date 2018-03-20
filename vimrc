@@ -22,9 +22,8 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+set backspace=indent,eol,start
 
-set viminfo='10,\"100,:20,%,n~/.viminfo
-au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
 
 map <c-l> <c-w><c-l>
 map <c-h> <c-w><c-h>
@@ -34,9 +33,7 @@ map <c-,> :vertical resize 0 <c-r>
 map <c-.> :vertical resize <c-r>
 map <c-=> <c-w>==
 
-set tags=/usr/include/tags
-set tags+=/home/luopu/work/oled-spi
+"set tags=/usr/include/tags
+"set tags+=/home/luopu/work/oled-spi
 
 set nowrap
-good stomache
-congratulation
